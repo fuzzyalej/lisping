@@ -1,0 +1,10 @@
+(defun greater (x y)
+  (if (= x y)
+    (print "=")
+    (if (> x y)
+      (print ">")
+      (print "<"))))
+
+(greater 1 1)
+(greater 1 2)
+(greater 2 1)
